@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-family: Helvetica,Arial, sans-serif;
+}
+/*
+1. Từ ngoài vào trong
+2. Từ trên xuống dưới
+3. Tổng quan đến chi tiết
+/*
+1 vị trí
+2 kích thước(width, height)
+3 màu sắc
+4 kiểu dáng
+*/
+#main {
+
+}
+
+
+#header {
+    height: 46px;
+    background-color: #000
+    ;
+
+}
+
+#nav{
+
+}
+
+#nav li {
+
+    display: inline-block;
+}
+
+#nav li a{
+    color: white;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+}
+
+#nav li:hover a{
+    color: #000;
+    background-color: #ccc;
+    
+}
+
+
+#nav .subnav{
+    
+    display: none;
+}
+
+#slider {
+    
+
+}
+
+
+#content {
+
+}
+
+
+#footer {
+
+}
