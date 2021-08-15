@@ -22,11 +22,19 @@ html{
 
 }
 
+#nav{
+    display: inline-block;
+}
 
 #header {
     height: 46px;
     background-color: #000
     ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
 
 }
 
@@ -93,8 +101,30 @@ html{
    
 }
 
-#slider {
+#nav .nav-arrow-down{
+    font-size: 14px;
+}
+
+
+#header .search-btn{
+    float: right;
+    padding: 0 21px;
     
+
+}
+#header .search-btn:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+#header .search-icon{
+    color: #fff;
+    font-size: 20px;
+    line-height: 46px;
+}
+
+#slider {
+    margin-top: 46px;
     
     
 
