@@ -18,6 +18,9 @@ html{
 3 màu sắc
 4 kiểu dáng
 */
+.clear{
+    clear: both;
+}
 #main {
 
 }
@@ -203,7 +206,30 @@ html{
     line-height: 1.4;
 
 }
+#content .member-list{
+    margin-top: 48px;
+    /* overflow: hidden; */
+}
 
+#content .member-name{
+    font-size: 15px;
+    
+}
+
+#content .member-item{
+    float: left;
+    /* width: 33.33333%; */
+    width: calc(100%/3);
+    text-align: center;
+
+}
+
+
+#content .member-img{
+    margin-top: 15px;
+    width: 154px;
+    border-radius: 4px;
+}
 
 #footer {
 
