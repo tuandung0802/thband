@@ -347,9 +347,13 @@ line-height: 1.4;
     bottom: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.3);
-    display: flex;
     align-items: center;
     justify-content: center;
+    display: none;
+}
+
+#modal-open{
+    display: flex;
 }
 .modal-header {
     background-color: #009688!important;
@@ -363,6 +367,7 @@ line-height: 1.4;
 .modal-container{
     background: #fff ;
     width: 900px;
+    max-width: calc(100%-32px);
     min-height: 200px;
 }
 
@@ -400,4 +405,28 @@ label.modal-label {
     padding: 10px;
     font-size: 15px;
     margin-bottom: 12px;
+}
+
+#buy-tickets:hover {
+    opacity: 0.8;
+}
+#buy-tickets {
+    width: 100%;
+    background-color: #009688!important;
+    border: none;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 17px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+
+.modal-footer {
+    padding: 16px;
+    text-align: right;
+}
+.modal-footer a {
+    color:#2196F3;
 }
