@@ -6,6 +6,7 @@
 
 
 html{
+    scroll-behavior: smooth;
     font-family: Helvetica,Arial, sans-serif;
 }
 /*
@@ -322,8 +323,6 @@ html{
 
 }
 
-<<<<<<< Updated upstream
-=======
 /* Place */
 .place-item {
     
@@ -356,14 +355,10 @@ html{
     padding: 16px;
     font-size: 15px;
 }
->>>>>>> Stashed changes
 
 
 
 
-<<<<<<< Updated upstream
-/* footer section */
-=======
 
 
 .modal{
@@ -450,13 +445,10 @@ label.modal-label {
     margin-top: 16px;
 }
 
->>>>>>> Stashed changes
 
 #footer {
 
 }
-<<<<<<< Updated upstream
-=======
 
 
 .modal-footer a {
@@ -512,4 +504,33 @@ label.modal-label {
         
 }
 
->>>>>>> Stashed changes
+.map-section img{
+    width: 100%;
+}
+
+
+#footer{
+    padding: 64px 16px;
+    text-align: center;
+    
+}
+#footer .social-list{
+    font-size: 24px;
+}
+
+#footer .social-list a{
+    color:rgba(0,0,0,0.6);
+     text-decoration: none;
+}
+
+#footer .social-list a:hover{
+    color:rgba(0,0,0,0.3);
+}
+
+#footer .copyright{
+    margin-top: 15px;
+    color:rgba(0,0,0,0.6);
+}
+#footer .copyright a{
+    color:rgba(0,0,0,0.6);
+}
