@@ -86,6 +86,43 @@
                         <li>October <span class="sold-out">Sold out</span></li>
                         <li>November <span class="quantity">3</span></li>
                     </ul>
+<<<<<<< Updated upstream
+=======
+
+=======
+                    <div class="row place-list">
+                        <div class="col col-third">
+                            <img src="./assets" alt="" class="place-img">
+                        <div class="place-body">
+                        <h3 class="place-heading">New York</h3>
+                        <p class="place-time">Fri 27 Nov 2016</p>
+                        <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <button  class=" place-buy-btn js-buy-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="col col-third">
+                            <img src="./assets/img/location/paris.jpg" alt="" class="place-img">
+                        <div class="place-body">
+                            <h3 class="place-heading">Paris</h3>
+                            <p class="place-time">Sat 28 Nov 2016</p>
+                            <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button  class=" place-buy-btn js-buy-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="col col-third">
+                            <img src="./assets/img/location/sanfran.jpg" alt="" class="place-img">
+                        <div class="place-body">
+                            <h3 class="place-heading">San Francisco</h3>
+                            <p class="place-time">Sun 29 Nov 2016</p>
+                            <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button  class=" place-buy-btn js-buy-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                            </div>
+                    
+
+>>>>>>> Stashed changes
                 </div>
             </div>
             <!-- Contact  section -->
@@ -136,6 +173,77 @@
         </div>
 
     </div>
+<<<<<<< Updated upstream
     
+=======
+
+    
+=======
+     <div class="modal js-modal">
+         <div class="modal-container js-modal-container">
+             <div class="modal-close js-modal-close">
+                 <i class="ti-close "></i>
+             </div>
+             <header class="modal-header">
+                 <i class="modal-heading-icon ti-bag"></i>
+                 Tickets
+             </header>
+
+             <div class="modal-body">
+                 <label for="quantity" class="modal-label">
+                     <i class="ti-shopping-cart"></i>
+                     Tickets, 
+                 </label>
+                 <input id="quantity" type="text" class="modal-input" placeholder="How many?">
+
+
+                 <label for="email" class="modal-label">
+                    <i class="ti-user"></i>
+                    Send to
+                </label>
+                <input id="email" type="email" class="modal-input" placeholder="Enter email...">
+                <button id="buy-tickets">
+                    Pay <i class="ti-check"></i>
+                </button>
+            </div>
+            <footer class="modal-footer">
+                <p class="modal-help">Need <a href=""> Help?</a></p>
+            </footer>
+         </div>
+     </div>
+    
+    <script>
+        const buyBtns = document.querySelectorAll('.js-buy-ticket')
+  
+        const modal = document.querySelector('.js-modal')
+        const modalClose = document.querySelector('.js-modal-close')
+        const modalContainer=document.querySelector('.js-modal-container')
+            function showBuyTickets(){
+                modal.classList.add('open')
+            }
+            
+
+
+            function hideBuyTickets(){
+                modal.classList.remove('open')
+            }
+
+
+            for (const buyBtn of buyBtns){
+                //
+                buyBtn.addEventListener('click',showBuyTickets)
+            }
+
+            modalClose.addEventListener('click',hideBuyTickets)
+    
+            modal.addEventListener('click',hideBuyTickets)    
+
+            modalContainer.addEventListener('Click',function(event){
+                event.stopPropagation()
+
+            })
+    </script>
+
+>>>>>>> Stashed changes
 </body>
 </html>
