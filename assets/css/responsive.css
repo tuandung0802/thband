@@ -1,0 +1,11 @@
+@media (max-width:740px) {
+    #nav > li {
+        display: block;
+    }
+    #header .search-btn {
+        float: right;
+        padding: 0 21px;
+        display: none;
+    }
+
+}
